@@ -1,9 +1,9 @@
-$country = Read-Host "Enter country code (e.g., US):"
-$state = Read-Host "Enter state or region code (e.g., VA):"
-$city = Read-Host "Enter city name:"
-$company = Read-Host "Enter company name:"
-$division = Read-Host "Enter division name:"
-$commonName = Read-Host "Enter Common Name (CN):"
+$country = Read-Host "Enter country code"
+$state = Read-Host "Enter state or region code"
+$city = Read-Host "Enter city name"
+$company = Read-Host "Enter company name"
+$division = Read-Host "Enter division name"
+$commonName = Read-Host "Enter Common Name"
 
 $altNames = @()
 
