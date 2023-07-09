@@ -46,7 +46,6 @@ $configContent | Out-File -Encoding UTF8 -FilePath "config.cfg"
 
 Write-Host "config.cfg file created."
 
-# Generate the certificate
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout cert.key -out cert.pem -config config.cfg -sha256
 
 Write-Host "Certificate created: cert.key, cert.pem"
